@@ -14,7 +14,16 @@
 // for  (let i = 1; i<=7; i++){
 //       output.push("#");
 //       console.log(output.join());
-// }
+// }/
+
+// External loop and pratice start pattern resource
+// for (let i = 1; i <= 5; i++) {
+//     // internal Loop printing '#'
+//     for (let k = 0; k < 2 * i - 1; k++) {
+//       process.stdout.write('#')
+//     }
+//     console.log(' ');
+//   }
 
 // const favoritesShows = ["Avenger", "Avenger2", "Avenger3"]
 // const firstMovie= favoritesShows[0];
@@ -31,6 +40,8 @@
 // //Shift : removes the first element in the array.
 // favoritesShows.shift();
 
+
+// for each loops example
 const favoritesShows = ["Avenger", "Avenger2", "Avenger3"]
 
 favoritesShows.forEach(letWatch => console.log("Let watch " + letWatch));
