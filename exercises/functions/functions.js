@@ -144,10 +144,30 @@
 
 
 
-//for of is for array
+//FOR OF
+//Iterates through the values of an iterable object.
+//Great for iterating over the values of an array.
+const myArray = [9,7,5,3,1];
+for(let element of myArray){
+    console.log(element);
+}
+//expected output: 9,7,5,3,1
 
+//FOR IN
+//Iterates through the keys of an iterable object.
+for(let index in myArray){
+    console.log(index);
+}
+//expected output: 0,1,2,3,4
 
-
-
-//for in is for object
+//Great for iterating over the properties of an object.
+const movie = {
+    title: "Gremlins",
+    year: 1984,
+    genre: "Horror/Fantasy",
+    rating: "PG"
+}
+for(let key in movie){
+    console.log(`Key: ${key}, Value: ${movie[key]}`);
+}
 
